@@ -7,7 +7,7 @@ import org.dreaman.society.common.DateUtil;
 import org.dreaman.society.common.CivilService;
 import org.dreaman.society.creature.Human;
 import org.dreaman.society.creature.Sex;
-import org.dreaman.society.wuxing.KinghooDate;
+import org.dreaman.society.五行.KinghooDate;
 
 public class StartTheWorld {
 

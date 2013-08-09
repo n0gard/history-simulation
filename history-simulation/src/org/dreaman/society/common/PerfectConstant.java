@@ -2,8 +2,8 @@ package org.dreaman.society.common;
 
 import java.util.Date;
 
-import org.dreaman.society.ganzhi.*;
-import org.dreaman.society.wuxing.KinghooDate;
+import org.dreaman.society.五行.KinghooDate;
+import org.dreaman.society.干支.*;
 
 public final class PerfectConstant {
     public static final long 创元 = System.currentTimeMillis();

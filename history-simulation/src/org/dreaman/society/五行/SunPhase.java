@@ -1,9 +1,9 @@
-package org.dreaman.society.wuxing;
+package org.dreaman.society.五行;
 
 import java.util.Date;
 
 import org.dreaman.society.common.PerfectConstant;
-import org.dreaman.society.ganzhi.地支;
+import org.dreaman.society.干支.地支;
 
 public class SunPhase {
     public static 五行 currentShichen五行(long periodTime) {

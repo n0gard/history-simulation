@@ -1,8 +1,8 @@
 package org.dreaman.society.running;
 
 import org.dreaman.society.creature.Creature;
-import org.dreaman.society.ganzhi.地支;
-import org.dreaman.society.wuxing.KinghooDate;
+import org.dreaman.society.五行.KinghooDate;
+import org.dreaman.society.干支.地支;
 
 public class Living implements Runnable {
 

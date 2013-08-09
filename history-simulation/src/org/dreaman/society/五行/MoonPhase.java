@@ -1,4 +1,4 @@
-package org.dreaman.society.wuxing;
+package org.dreaman.society.五行;
 
 import java.util.Date;
 

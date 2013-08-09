@@ -1,4 +1,4 @@
-package org.dreaman.society.ganzhi;
+package org.dreaman.society.干支;
 
 public class 八字 {
     private 天干 年干;

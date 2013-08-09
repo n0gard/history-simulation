@@ -6,8 +6,8 @@ import java.util.Set;
 
 import org.dreaman.society.common.DateUtil;
 import org.dreaman.society.common.CivilService;
-import org.dreaman.society.nature.NatureBase;
-import org.dreaman.society.wuxing.KinghooDate;
+import org.dreaman.society.五行.KinghooDate;
+import org.dreaman.society.性格.性格基础;
 
 /**
  * 万物 <br>
@@ -28,7 +28,7 @@ public class Creature {
     double physical;
 
     /** 性格池 */
-    Set<NatureBase> naturePool = new HashSet<NatureBase>();
+    Set<性格基础> naturePool = new HashSet<性格基础>();
 
     public Creature() {
         super();
@@ -46,7 +46,7 @@ public class Creature {
         birthday = now;
         KinghooDate wuxingDate = new KinghooDate();
         // 初始化性格
-        NatureBase nature = null;
+        性格基础 nature = null;
         switch (wuxingDate.getShichen()) {
         case 子:
 

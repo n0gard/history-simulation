@@ -1,6 +1,6 @@
-package org.dreaman.society.nature;
+package org.dreaman.society.性格;
 
-public class Will extends NatureBase {
+public class 意志 extends 性格基础 {
 
     @Override
     boolean yesOrNo() {

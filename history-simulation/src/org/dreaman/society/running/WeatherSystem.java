@@ -4,10 +4,10 @@ import java.util.Date;
 
 import org.dreaman.society.common.PerfectConstant;
 import org.dreaman.society.enviroment.Weather;
-import org.dreaman.society.wuxing.KinghooDate;
-import org.dreaman.society.wuxing.MoonPhase;
-import org.dreaman.society.wuxing.SunPhase;
-import org.dreaman.society.wuxing.五行;
+import org.dreaman.society.五行.KinghooDate;
+import org.dreaman.society.五行.MoonPhase;
+import org.dreaman.society.五行.SunPhase;
+import org.dreaman.society.五行.五行;
 
 public class WeatherSystem implements Runnable {
 

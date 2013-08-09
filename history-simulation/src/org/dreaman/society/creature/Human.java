@@ -6,7 +6,7 @@ import java.util.List;
 import org.dreaman.society.Dice;
 import org.dreaman.society.civilization.ClanManager;
 import org.dreaman.society.common.CNGenerate;
-import org.dreaman.society.nature.NatureBase;
+import org.dreaman.society.性格.性格基础;
 
 /**
  * 人类<br>
@@ -20,7 +20,7 @@ public class Human extends Creature {
     private Human mother;
     public static int MIN_BEAR_AGE = 15 * 1000;
     public static int MAX_BEAR_AGE = 25 * 1000;
-    private List<NatureBase> natures = new ArrayList<NatureBase>();
+    private List<性格基础> natures = new ArrayList<性格基础>();
 
     public Human(Sex sex) {
         super();
@@ -94,11 +94,11 @@ public class Human extends Creature {
         this.mother = mother;
     }
 
-    public List<NatureBase> getNatures() {
+    public List<性格基础> getNatures() {
         return natures;
     }
 
-    public void setNatures(List<NatureBase> natures) {
+    public void setNatures(List<性格基础> natures) {
         this.natures = natures;
     }
 

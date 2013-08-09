@@ -1,10 +1,10 @@
-package org.dreaman.society.wuxing;
+package org.dreaman.society.五行;
 
 import java.util.Date;
 
 import org.dreaman.society.common.PerfectConstant;
-import org.dreaman.society.ganzhi.地支;
 import org.dreaman.society.running.WeatherSystem;
+import org.dreaman.society.干支.地支;
 
 public class KinghooDate {
     private int year;

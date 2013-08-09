@@ -1,4 +1,4 @@
-package org.dreaman.society.ganzhi;
+package org.dreaman.society.干支;
 
 public class 年上起月表 {
     private static 天干[][] 年上起月表_月干 = {// 

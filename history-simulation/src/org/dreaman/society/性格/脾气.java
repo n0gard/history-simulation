@@ -1,9 +1,9 @@
-package org.dreaman.society.nature;
+package org.dreaman.society.性格;
 
 /**
  * 
  */
-public class Temper extends NatureBase {
+public class 脾气 extends 性格基础 {
 
     @Override
     boolean yesOrNo() {
